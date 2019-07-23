@@ -339,10 +339,9 @@ def toggle_settings(
         toggle += 'div#maintoolbar {display: none !important;}\n'
     if nbname:
         toggle += ('span.save_widget span.filename {margin-left: 8px; height: initial;'
-                   'font-size: 100%; color: @nb-name-fg; background-color:'
-                   '@cc-input-bg;}\n')
+                   'font-size: 150%; color: @nb-name-fg;}\n')
         toggle += ('span.save_widget span.filename:hover {color:'
-                   '@nb-name-hover; background-color: @cc-input-bg;}\n')
+                   '@nb-name-hover; background-color: transparent;}\n')
         toggle += ('#menubar {padding-top: 4px; background-color:'
                    '@notebook-bg;}\n')
     else:
